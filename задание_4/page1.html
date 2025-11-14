@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="index.html">главная страница</a>
+        </li>
+        <li>
+            <a href="page2.html">вторая страница</a>
+        </li>
+        <li>
+            <a href="page3.html">третья страница</a>
+        </li>
+     </ul>
+     <button></button>
+     <form action="#" method="post"> 
+        <label for="user_name" >Введите имя:</label> <br>
+        <input type="text" name="name" id="user_name" placeholder="Введите Ваше имя" value="неизвестный" maxlength="20" required ><br>
+        
+        <label for="user_lastname" >Выберите имя:</label> <br>
+        <input type="text" name="lastname" id="user_lastname"  placeholder="Введите Вашу фамилию" value="" ><br>
+       <label for="user_email" >Выберите email:</label> <br>
+        <input type="text" name="password" id="user_email"  placeholder="Введите пароль" value="" ><br>
+        <input type="checkbox" name="subscribe" placeholder="?" value="yes" >Я согласен получать рассылку</input>
+        <input type="radio" name="gender" value="male" > Мужской <br>
+        <input type="radio" name="gender" value="female" > Женский <br>
+        <textarea name="password" rows="3" cols="40" placeholder="Введите Ваше сообщение" value="?"></textarea><br>
+  
+        <label for="user_city" >Выберите город проживания:</label> <br>
+        <select name="city" id="user_city" >
+    <option value="msk" > Москва</option>
+    <option value="?" > Челябинск</option>
+    <option value="?" > Курган</option>
+   </select> <br>
+
+        <input type="button" value="простая кнопка" > <br>
+    <input type="submit" value="отправка данных" > <br>
+    </form>
+     
+</body>
+</html>
